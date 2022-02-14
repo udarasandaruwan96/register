@@ -1,14 +1,16 @@
 import React from "react";
-import "./Contact.css";
+import "./About.css"
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 
-const Contact = () => {
+
+// about page
+const About = () => {
   return <>
   <Navbar/>
-  <div className="contact"></div>
+  <div className="about"></div>
   <Footer/>
   </>;
 };
 
-export default Contact;
+export default About;

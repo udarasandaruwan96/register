@@ -11,6 +11,8 @@ import imgUrl from "../../assets/cart.png";
 import axios from "axios";
 import { CartContext } from "../../Context/CartContext";
 
+
+// cutomer page handler
 const Customer = ({ location }) => {
   let history = useHistory();
   const [component, setComponent] = useState("home");

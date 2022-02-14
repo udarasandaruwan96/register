@@ -4,6 +4,7 @@ import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import { Redirect } from "react-router-dom";
 
+// home page
 const Home = () => {
   if (localStorage.getItem("user-info-admin")) {
     return <Redirect to="/dashboard" />;

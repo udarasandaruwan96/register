@@ -7,6 +7,8 @@ import Footer from "../Footer/Footer";
 import axios from "axios";
 import swal from "sweetalert";
 
+
+// sinup handler
 const Signup = () => {
   let history = useHistory();
 
