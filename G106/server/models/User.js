@@ -9,18 +9,7 @@ const userSchema = mongoose.Schema({
        type: String,
        required:[true, 'A user must have a last name']
    },
-   address:{
-       type: String,
-       required:[true, 'A user must have an address']
-   },
-   city:{
-       type: String,
-       required:[true, 'A user must have a city']
-   },
-   district:{
-       type: String,
-       required:[true, 'A user must have a district'],       
-   },
+   
    email:{
        type: String,
        required:[true, 'A user must have an email address'],

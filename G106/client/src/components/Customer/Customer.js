@@ -2,10 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Redirect, useHistory } from "react-router-dom";
 import Logo from "../../assets/logo.png";
 import Footer from "../Footer/Footer";
-import Feedback from "./Feedback/Feedback";
-import Shop from "./Shop/Shop";
+
 import About from "./About/About";
-import Cartcus from "./Shop/Cartcus";
 import Home from "./Home/Home";
 import Contact from "./Contact/Contact";
 import "./Customer.css";
@@ -74,14 +72,9 @@ const Customer = ({ location }) => {
             >
               HOME
             </li>
-            <li
-              onClick={() => {
-                setComponent("shop");
-              }}
-              className="link"
-            >
-              SHOP
-            </li>
+
+          
+
             <li
               onClick={() => {
                 setComponent("about");
@@ -98,14 +91,9 @@ const Customer = ({ location }) => {
             >
               CONTACT
             </li>
-            <li
-              onClick={() => {
-                setComponent("feedback");
-              }}
-              className="link"
-            >
-              FEEDBACK
-            </li>
+
+           
+
           </div>
         </div>
         <div className="btnwrapper">
@@ -117,6 +105,7 @@ const Customer = ({ location }) => {
             alt=""
             className="cart-img"
           /></div>
+
           
           <button onClick={Logout} className="btn">
             LOGOUT
@@ -125,14 +114,8 @@ const Customer = ({ location }) => {
       </div>
       <div className="customer">
         {component === "home" && <Home />}
-        {component === "shop" && <Shop cus={location.state.currentUser} />}
         {component === "about" && <About />}
         {component === "contact" && <Contact />}
-        {component === "cart" && <Cartcus cus={location.state.currentUser} />}
-        {component === "feedback" && (
-          <Feedback cus={location.state.currentUser} />
-          
-        )}
       </div>
       <Footer />
     </div>

@@ -12,9 +12,6 @@ const Signup = () => {
 
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
-  const [address, setAddress] = useState("");
-  const [city, setCity] = useState("");
-  const [district, setDistrict] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -22,9 +19,6 @@ const Signup = () => {
     var userData = {
       firstName: firstName,
       lastName: lastName,
-      address: address,
-      city: city,
-      district: district,
       email: email,
       password: password,
     };
@@ -73,30 +67,7 @@ const Signup = () => {
                   />
                 </div>
               </div>
-              <h3 className="address">Address</h3>
-              <input
-                type="text"
-                className="addressInput"
-                onChange={(e) => setAddress(e.target.value)}
-              />
-              <div className="inputgroup">
-                <div className="inputgroupfirstname">
-                  <h3 className="city">City</h3>
-                  <input
-                    type="text"
-                    className="cityInput"
-                    onChange={(e) => setCity(e.target.value)}
-                  />
-                </div>
-                <div className="inputgroupsecond">
-                  <h3 className="district">District</h3>
-                  <input
-                    type="text"
-                    className="districtInput"
-                    onChange={(e) => setDistrict(e.target.value)}
-                  />
-                </div>
-              </div>
+
               <h3 className="email">Email</h3>
               <input
                 type="text"

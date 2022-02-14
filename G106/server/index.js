@@ -28,26 +28,16 @@ app.get("/fetch-pdf", (req, res) => {
 });
 
 mongoose
-  .connect(process.env.mongoDBURI, {
+  .connect(process.env.MONGO_URL, {
     useUnifiedTopology: true,
     useNewUrlParser: true,
   })
   .then(() => console.log("Database Successfully Connected"))
   .catch((error) => console.log(error));
 
+
 app.use("/auth", require("./routes/Login"));
-app.use("/feedback", require("./routes/Feedback"));
-app.use("/hr", require("./routes/Hr"));
-app.use("/salary", require("./routes/Salary"));
-app.use("/shopping", require("./routes/Shopping"));
-app.use("/order", require("./routes/Order"));
-app.use("/facility", require("./routes/Facility"));
-app.use("/catering", require("./routes/Catering"));
-app.use("/supplier", require("./routes/Supplier"));
-app.use("/supplierPay", require("./routes/SupplierPay"));
-app.use("/cart", require("./routes/Cart"));
-app.use("/addcart", require("./routes/AddCart"));
-app.use("/hrAttendence",require("./routes/HrAttendence"));
+
 
 const port = process.env.PORT || 5000;
 

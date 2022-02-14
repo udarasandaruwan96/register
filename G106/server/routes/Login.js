@@ -39,9 +39,7 @@ router.post('/register',async(req,res) => {
     try {
         const firstName =  req.body.firstName;
         const lastName = req.body.lastName;
-        const address =  req.body.address;
-        const city = req.body.city;
-        const district = req.body.district;
+
         const email = req.body.email;
         const password = req.body.password;
 
@@ -57,7 +55,7 @@ router.post('/register',async(req,res) => {
             throw new Error("User with this email exists");
         }
 
-        if(!firstName || !lastName || !address || !city || !district || !email || !password) {
+        if(!firstName || !lastName || !email || !password) {
             throw new Error("Empty Fields");
         }
 

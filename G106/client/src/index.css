@@ -21,13 +21,7 @@ button {
   border: 0;
 }
 
-@media (max-width: 768px) {
-  body {
-    background-image: url("./assets/backgif.gif");
-    background-position: center center;
-    background-size: cover;
-  }
-}
+
 .link {
   list-style: none;
   text-decoration: none;
