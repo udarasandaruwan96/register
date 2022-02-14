@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="imgwrapper">
           <img src={Logo} alt="" className="logo"></img>
         </div>
-        <h3 className="logoname">ROMAKA</h3>
+        <h3 className="logoname">Udara Sandaruwan</h3>
       </div>
 
       <div className="navlink">

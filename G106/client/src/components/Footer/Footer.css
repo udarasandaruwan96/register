@@ -1,8 +1,12 @@
 .footer{
-    height: 8vh;
+    height: 10vh;
     width: 100%;
     background-image: url("../../assets/copyright.png");
     background-repeat: no-repeat;
     background-size: 8%;
     background-position: center;
+}
+
+.owner{
+    text-align: center;
 }
