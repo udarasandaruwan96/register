@@ -1,0 +1,288 @@
+@media (max-width: 1366px) {
+  .mainrow2 {
+    width: 1320px;
+    height: 560px;
+    top: 5px;
+    left: 20px;
+    border-radius: 30px;
+    color: rgb(158, 131, 131);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .leftmanagecart {
+    width: 650px;
+    height: 440px;
+    bottom: 150px;
+    right: 680px;
+    background-color: #1d263a;
+    border-radius: 30px;
+    color: rgb(158, 131, 131);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+  }
+
+  .bottompricecart {
+    width: 600px;
+    height: 60px;
+    top: 530px;
+    right: 709px;
+    background-color: #060605;
+    border-radius: 10px;
+    color: rgb(12, 9, 9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+  }
+
+  .addcarttitle {
+    position: fixed;
+    left: 246px;
+    bottom: 528px;
+    color: rgb(255, 254, 254);
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+  }
+
+  /*     
+      .viewbackbtn {
+        background-color: blue;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 2%;
+        left: 2.5%;
+        cursor: pointer;
+        transition: 0.5s ease;
+      }
+    
+      .viewbackbtn:hover {
+        background-color: #db0042;
+      } */
+
+  .cart1cellColor {
+    color: rgb(0, 0, 0) !important;
+    background-color: #6c3f3f;
+  }
+
+  .cartcellColor {
+    color: rgb(0, 0, 0) !important;
+    background-color: #e4d5d5;
+  }
+
+  .carttotal1 {
+    bottom: 87px;
+    left: 70px;
+    font-size: 653x;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+  }
+
+  .tprice {
+    right: 30px;
+    width: 190px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 2px solid #09033f;
+    text-align: center;
+  }
+
+  .cartdone {
+    background-color: rgb(0, 0, 255);
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    font-weight: bold;
+    width: 95px;
+    height: 40px;
+    bottom: 15%;
+    left: 75.5%;
+    transition: 0.5s ease;
+    font-stretch: expanded;
+  }
+
+  .cartdone:hover {
+    background-color: #db0042;
+  }
+
+  /*----------------------------------------------------------*/
+.receiver{
+  margin-bottom: 0%;
+  font-size: 653x;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    /* position: fixed; */
+}
+  .cust-info-details {
+    width: 600px;
+    height: 440px;
+    bottom: 45px;
+    right: -345px;
+    background-color: #312b2b;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    position: relative;
+  }
+
+  .cust-info-format {
+    display: flex;
+    width: 95%;
+    height: 92%;
+    padding: 1px;
+    background-color: #c4c4c4;
+    border-radius: 30px;
+    margin: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: #424242;
+    flex-direction: column;
+  }
+  .cust-info-group {
+    padding: 10px;
+    margin-left: 10px;
+    margin: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #424242;
+  }
+  .name1-box1 {
+    position: absolute;
+    margin-right: 30px;
+    margin-top: -9px;
+    right: 100px;
+    padding: 13px; 
+    width: 270px;
+    background-color: rgb(151, 39, 39);
+    height: 5px;
+    background: #fff2f200;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  .name2-box2 {
+    position: absolute;
+    margin-right: 30px;
+    margin-top: -10px;
+    right: 100px;
+    padding: 13px;
+    width: 270px;
+    background-color: rgb(151, 39, 39);
+    height: 8px;
+    background: #fff2f200;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+
+  .name3-box3 {
+    position: absolute;
+    margin-right: 30px;
+    margin-top: -10px;
+    right: 100px;
+    padding: 13px;
+    width: 270px;
+    background-color: rgb(151, 39, 39);
+    height: 8px;
+    background: #fff2f200;
+    border: 3px solid #000000;
+    border-radius: 10px;
+     font-size: 18px;
+  }
+  .name4-box4 {
+    position: absolute;
+    margin-right: 30px;
+    margin-top: -10px;
+    right: 100px;
+    padding: 13px;
+    width: 270px;
+    background-color: rgb(151, 39, 39);
+    height: 8px;
+    background: #fff2f200;
+    border: 3px solid #000000;
+    border-radius: 10px;
+     font-size: 18px;
+  }
+
+  .name5-box5 {
+    position: absolute;
+    margin-right: 30px;
+    margin-top: -10px;
+    right: 20px;
+    padding: 13px;
+    width: 350px;
+    background-color: rgb(151, 39, 39);
+    height: 68px;
+    background: #fff2f200;
+    border: 3px solid #000000;
+    border-radius: 10px;
+     font-size: 18px;
+  }
+  .deletecart {
+    width: 65px;
+    height: 18px;
+    color: #000;
+    background-color: rgb(167, 116, 116);
+    border-radius: 110px;
+  }
+  .deletecart:hover {
+    background-color: #db0042;
+  }
+  .final-Cart-submit {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin-left: 5%;
+    width: 90%;
+    height: 15%;
+    background-color: rgb(9, 60, 107);
+  }
+  .cart-submit-btn {
+    border: 1px solid #000000;
+    background-color: #947404;
+    color: rgb(12, 9, 9);
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    font-weight: bold;
+    width: 95px;
+    height: 40px;
+    bottom: -15.5%;
+    left: 75.5%;
+    transition: 0.5s ease;
+    font-stretch: expanded;
+  }
+  .cart-submit-btn:hover {
+    background-color: #db0042;
+  }
+  .btn-discrip {
+    margin-top: 1px;
+    width: 75%;
+    height: 80%;
+  }
+
+  .dis-btn {
+    font-family: "Courier New", Courier, monospace;
+    color: rgb(235, 204, 163);
+    font-size: 13px;
+  }
+}

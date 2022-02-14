@@ -1,0 +1,118 @@
+.addcateringform2 {
+  position: absolute;
+  width: 890px;
+  height: 300px;
+  left: 110px;
+  top: 220px;
+  background: #ffffff;
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 5px 3px 10px rgba(255, 255, 255, 0.56);
+  border-radius: 45px;
+}
+
+.titleaddcateringfacility {
+  position: absolute;
+  margin-left: 250px;
+  top: 63px;
+  border-radius: 10px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.addcateringname1 {
+  padding: 20px;
+  margin: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  color: #000000;
+}
+
+.addcateringbox2 {
+  position: relative;
+  margin-left: 250px;
+  margin-top: 10px;
+  right: 20px;
+  padding: 13px;
+  width: 500px;
+  height: 20px;
+  background: #c4c4c4;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.addcateringbox2:hover {
+  border: 3px solid #0ab0ce;
+}
+
+.addcateringbox3 {
+  position: relative;
+  margin-left: 250px;
+  margin-top: 10px;
+  right: 20px;
+  padding: 13px;
+  width: 500px;
+  height: 20px;
+  background: #c4c4c4;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.addcateringbox3:hover {
+  border: 3px solid #0ab0ce;
+}
+.addcateringbox4 {
+  position: relative;
+  margin-left: 250px;
+  margin-top: 10px;
+  right: 20px;
+  padding: 13px;
+  width: 500px;
+  height: 20px;
+  background: #c4c4c4;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.addcateringbox4:hover {
+  border: 3px solid #0ab0ce;
+}
+
+.addcateringBtn {
+  height: 40px;
+  width: 150px;
+  left: 400px;
+  top: 400px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.addcateringBtn:hover {
+  background-color: #ff0000;
+}
+
+.addcateringbackBtnn {
+  height: 25px;
+  width: 90px;
+  top: 700px;
+  margin-left: 200px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.addcateringbackBtnn:hover {
+  background-color: red;
+}

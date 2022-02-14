@@ -1,0 +1,130 @@
+.main {
+  height: 84vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup {
+  width: 70%;
+  height: 84%;
+  border-radius: 40px;
+  display: flex;
+}
+
+.rightSignup {
+  height: 100%;
+  width: 45%;
+  background-color: #3b477b;
+  border-radius: 0px 40px 40px 0px;
+  position: relative;
+  border: 2px solid black;
+}
+
+.leftSignup {
+  height: 100%;
+  width: 56%;
+  border-radius: 40px 0px 0px 40px;
+  background-image: url("../../assets/signup_left.png");
+  background-size: 125%;
+  background-position: center;
+  border: 2px solid black;
+  background-repeat: no-repeat;
+}
+
+.signupTitle {
+  position: absolute;
+  left: 30%;
+  top: 2%;
+}
+
+.signupform {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  width: 100%;
+  padding: 0px 40px;
+}
+
+@media (max-width: 1366px) {
+  .signupform {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 100%;
+    padding: 0px 40px;
+  }
+}
+
+.signupform h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  margin-top: 12px;
+  margin-left: 2px;
+}
+
+.signupform input {
+  margin-top: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 70%;
+}
+
+.rightSignup .btngroup {
+  position: absolute;
+  bottom: 4%;
+  left: 35%;
+}
+
+.rightSignup .btngroup .signup {
+  color: white;
+  font-size: 0.8em;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.rightSignup .btngroup .signup span {
+  color: #ffd600;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.rightSignup .btngroup .btn {
+  background-color: #d03939;
+  width: 150%;
+  text-transform: uppercase;
+}
+
+.rightSignup .btngroup .btn:hover {
+  background-color: black;
+}
+
+.signupform .inputgroup {
+  display: flex;
+}
+
+.signupform .inputgroupsecond {
+  flex-basis: 47%;
+}
+
+@media (max-width: 1366px) {
+  .signupform .inputgroupsecond {
+    flex-basis: 36%;
+  }
+}
+
+.signupform .signuplink {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 25%;
+  font-weight: normal;
+  font-size: 0.7em;
+  margin: 5px;
+}
+
+.signuplink span {
+  color: #ffd600;
+  margin-left: 5px;
+  font-weight: bold;
+}

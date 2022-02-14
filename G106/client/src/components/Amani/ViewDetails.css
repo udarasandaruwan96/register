@@ -1,0 +1,72 @@
+.viewdetails1 {
+  width: 850px;
+  height: 90vh;
+  top: 30px;
+  left: 150px;
+  background-color: #c4c4c4;
+  border-radius: 30px;
+  color: rgb(158, 131, 131);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.viewdetailstitle {
+  position: absolute;
+  left: 300px;
+  top: 150px;
+  bottom: 528px;
+  color: rgb(22, 16, 16);
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+.viewdetails2 {
+  width: 600px;
+  height: 300px;
+  background-color: #383333;
+  color: rgb(187, 167, 167);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.viewdetailsbackbtn1 {
+  background-color: blue;
+  color: white;
+
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 20%;
+  left: 2.5%;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.viewdetailsbackbtn1:hover {
+  background-color: red;
+}
+
+.viewdetailscellColor1 {
+  color: rgb(12, 9, 9) !important;
+  font-size: 100px;
+  background-color: #ececec;
+}
+
+.viewdetailscellColor2 {
+  color: rgb(0, 0, 0) !important;
+  background-color: #c4c4c4;
+}
+
+.viewdetailsheadcolor1 {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.viewnoticeselect {
+  background-color: rgba(117, 70, 80, 0.356);
+  border-radius: 5px;
+}

@@ -1,0 +1,90 @@
+.navbar {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.logowrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgwrapper {
+    background-color: #e7dec7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    height: 25px;
+    width: 25px;
+}
+
+.logo {
+    height: 30px;
+    margin-top: 4px;
+}
+
+.logoname {
+    color: #a30f0f;
+    margin-left: 8px;
+    font-size: bold;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+}
+
+.links li {
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: 0.5mm;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: #000aff !important;
+}
+
+.active {
+    color: #000aff;
+}
+
+.btnwrapper {
+    margin: 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    color: white;
+    background-color: #426626;
+    outline: none;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: crimson;
+    opacity: 0.7;
+    font-weight: bold;
+    transform: translate(-3px, 3px);
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+}

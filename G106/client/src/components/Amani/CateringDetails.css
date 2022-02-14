@@ -1,0 +1,144 @@
+/*catering backbtn1-add details button*/
+.addcateringdetailsbutton {
+  background-color: blue;
+  color: white;
+  height: 30px;
+  width: 100px;
+  border-radius: 8px;
+  margin-top: -525px;
+  margin-left: 150px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  text-align: center;
+}
+
+.addcateringdetailsbutton:hover {
+  background-color: red;
+}
+
+/*catering facility details heading*/
+.titlecateringfacility {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-left: 250px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+/*catering facility table*/
+.facilitycatering {
+  margin-left: 180px;
+  height: 370px;
+  margin-top: 80px;
+}
+
+.cateringCellColor2 {
+  background-color: #d6d6d6;
+  color: rgb(0, 0, 0) !important;
+  font-size: 18px;
+}
+
+.cateringHeadcolor2 {
+  color: #ff0000;
+  font-size: 18px;
+}
+
+.cateringdeleteIcon3 {
+  color: rgb(17, 0, 255) !important;
+  cursor: pointer;
+  background-color: #d6d6d6;
+}
+
+.cateringdeleteIcon3:hover {
+  color: rgb(255, 1, 1) !important;
+}
+
+.cateringUpdateIcon3 {
+  color: rgb(17, 0, 255) !important;
+  cursor: pointer;
+  background-color: #d6d6d6;
+}
+
+.cateringUpdateIcon3:hover {
+  color: rgb(255, 1, 1) !important;
+}
+
+.catedeleteIcon {
+  color: rgb(17, 0, 255) !important;
+  cursor: pointer;
+  background-color: #d6d6d6;
+}
+
+.catedeleteIcon:hover {
+  color: rgb(255, 1, 1) !important;
+}
+
+.updatecate {
+  color: rgb(17, 0, 255) !important;
+  cursor: pointer;
+  background-color: #d6d6d6;
+}
+
+.updatecate:hover {
+  color: rgb(255, 1, 1) !important;
+}
+
+/*catering previous button*/
+.cateringbackBtn2 {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  width: 10%;
+  border-radius: 8px;
+  margin-left: 150px;
+
+  margin-top: 80px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  text-align: center;
+}
+
+.cateringbackBtn2:hover {
+  background-color: red;
+}
+
+.searchnamecate {
+  margin-bottom: 10px;
+  height: 40px;
+  width: 250px;
+  background-color: #110f0f;
+  color: rgb(255, 255, 255);
+  border-radius: 17px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.searchBtnCate {
+  position: relative;
+  left: 250px;
+  top: 7px;
+  color: rgb(255, 255, 255);
+  width: 30px;
+  height: 30px;
+}
+.searchBtnCate:hover {
+  color: red;
+}
+
+.BtnPrint2 {
+  height: 35px;
+  width: 180px;
+  margin-top: 465px;
+  margin-left: 750px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.5s ease;
+}

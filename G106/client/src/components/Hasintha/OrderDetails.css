@@ -1,0 +1,319 @@
+@media (max-width: 1366px) {
+  .row {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  .vieworder {
+    top: 20px;
+    left: 20px;
+    width: 850px;
+    height: 90vh;
+    top: 20px;
+    left: 40px;
+    background-color: #8d7676;
+    border-radius: 30px;
+    color: rgb(158, 131, 131);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  /*------search button-------*/
+
+  .search-bar {
+    /* left: 210px; */
+    margin-top: 0px;
+    margin-left: 580px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .search-bar-name {
+    height: 30px;
+    width: 250px;
+    background-color: #070606;
+    color: rgb(255, 248, 248);
+    border: 2px solid rgb(84, 129, 226);
+    border-radius: 17px;
+    font-size: 15px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+  }
+  .search-bar-name:hover {
+    border: 2px solid rgb(134, 102, 102);
+  }
+
+  .search-bar-Btn1 {
+    /* position: relative; */
+    margin-left: -40px;
+    top: 3px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    width: 30px;
+    height: 30px;
+  }
+  .search-bar-Btn1:hover {
+    color: #ff0000;
+  }
+  .ordertitle {
+    position: absolute;
+    left: 16px;
+    bottom: 528px;
+    color: rgb(22, 16, 16);
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+  }
+  .vieworder2 {
+    width: 850px;
+    height: 485px;
+    background-color: #383333;
+    color: rgb(187, 167, 167);
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .backBtn2 {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 2%;
+    left: 2.5%;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+
+  .backBtn2:hover {
+    background-color: red;
+  }
+
+  .cellColorO1 {
+    color: #000000 !important;
+    background-color: #e4d5d5;
+    width: 1px;
+  }
+
+  .cellColorO {
+    color: #ffffff !important;
+    background-color: #5b4b4b;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .headsize {
+    height: 10px;
+  }
+
+  .orderstatus {
+    background-color: #e4d5d5;
+    width: 80px;
+    border-radius: 15px;
+  }
+  .conform-order {
+    background-color: blue;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 5.5%;
+    left: 40.5%;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+  .conform-order:hover {
+    background-color: brown;
+  }
+  .repo-btn-order {
+    width: 13%;
+    background-color: rgb(12, 12, 34);
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 2%;
+    left: 83.5%;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+  .repo-btn-order:hover {
+    background-color: brown;
+  }
+  .repo-btn-cart {
+    width: 13%;
+    background-color: rgb(12, 12, 46);
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 5.5%;
+    left: 80.5%;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+  .repo-btn-cart:hover {
+    background-color: brown;
+  }
+}
+
+.row {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.vieworder {
+  top: 20px;
+  left: 20px;
+  width: 850px;
+  height: 90vh;
+  top: 20px;
+  left: 40px;
+  background-color: #8d7676;
+  border-radius: 30px;
+  color: rgb(158, 131, 131);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/*------search button-------*/
+
+.search-bar {
+  /* left: 210px; */
+  margin-top: 0px;
+  margin-left: 580px;
+  font-family: "Times New Roman", Times, serif;
+}
+.search-bar-name {
+  height: 30px;
+  width: 250px;
+  background-color: #070606;
+  color: rgb(255, 248, 248);
+  border: 2px solid rgb(84, 129, 226);
+  border-radius: 17px;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+}
+.search-bar-name:hover {
+  border: 2px solid rgb(134, 102, 102);
+}
+
+.search-bar-Btn1 {
+  /* position: relative; */
+  margin-left: -40px;
+  top: 3px;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  width: 30px;
+  height: 30px;
+}
+.search-bar-Btn1:hover {
+  color: #ff0000;
+}
+.ordertitle {
+  position: absolute;
+  left: 16px;
+  bottom: 528px;
+  color: rgb(22, 16, 16);
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+.vieworder2 {
+  width: 850px;
+  height: 485px;
+  background-color: #383333;
+  color: rgb(187, 167, 167);
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.backBtn2 {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 2%;
+  left: 2.5%;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.backBtn2:hover {
+  background-color: red;
+}
+
+.cellColorO1 {
+  color: #000000 !important;
+  background-color: #e4d5d5;
+  width: 1px;
+}
+
+.cellColorO {
+  color: #ffffff !important;
+  background-color: #5b4b4b;
+  font-weight: bold;
+  font-size: 20px;
+}
+.headsize {
+  height: 10px;
+}
+
+.orderstatus {
+  background-color: #e4d5d5;
+  width: 80px;
+  border-radius: 15px;
+}
+.conform-order {
+  background-color: blue;
+  color: white;
+  padding: 7px 15px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 5.5%;
+  left: 40.5%;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.conform-order:hover {
+  background-color: brown;
+}
+.repo-btn-order {
+  width: 13%;
+  background-color: rgb(12, 12, 43);
+  color: white;
+  padding: 7px 15px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 2%;
+  left: 83.5%;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.repo-btn-order:hover {
+  background-color: brown;
+}
+.repo-btn-cart {
+  width: 13%;
+  background-color: rgb(12, 12, 46);
+  color: white;
+  padding: 7px 15px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 5.5%;
+  left: 80.5%;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.repo-btn-cart:hover {
+  background-color: brown;
+}

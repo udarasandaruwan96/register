@@ -1,0 +1,151 @@
+ @media (max-width: 1366px) {
+        .hr1notice {
+            top: 20px;
+            width: 850px;
+            height: 90vh;
+            top: 30px;
+            left: 50px;
+            background-color: #ebdcdc;
+            border-radius: 30px;
+            color: rgb(158, 131, 131); 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .hrtoman {
+            position: absolute;
+            left: 16px;
+            bottom: 528px;
+            color: rgb(22, 16, 16);
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+        .hrnotice {
+            width: 850px;
+            height: 475px;
+            background-color:white;
+            color: rgb(187, 167, 167);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+          
+          .hrnoticebackbtn1 {
+            background-color: blue;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            position: absolute;
+            bottom: 2%;
+            left: 2.5%;
+            cursor: pointer;
+            transition: 0.5s ease;
+          }
+          
+          .hrnoticebackbtn1:hover {
+            background-color: red;
+          }
+    
+        
+        .hrcellColor1 {
+            color: rgb(12, 9, 9) !important;
+            font-size: 100px;
+            background-color: #ececec;
+        }
+    
+        .ndcellColor2{
+            color: rgb(0, 0, 0) !important;
+            background-color: #ffffff;
+        }
+        
+        .nheadcolor1 {
+            border: 1px solid #000000;
+            border-radius: 5px;
+            font-weight: bold;
+    
+        }
+        .hrnoticeselect{
+            background-color: rgba(117, 70, 80, 0.356);
+            border-radius: 5px;
+    
+        }
+        }
+    
+        .hr1notice{
+            top: 20px;
+            width: 850px;
+            height: 90vh;
+            top: 20px;
+            left: 40px;
+            background-color: #C4C4C4;
+            border-radius: 30px;
+            color: rgb(158, 131, 131);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .hrtoman {
+            position: absolute;
+            left: 16px;
+            bottom: 528px;
+            color: rgb(22, 16, 16);
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+        .hrnotice {
+            width: 850px;
+            height: 475px;
+            background-color: #ffffff;
+            color: rgb(187, 167, 167);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+          
+          .hrnoticebackbtn1 {
+            background-color: blue;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            position: absolute;
+            bottom: 2%;
+            left: 2.5%;
+            cursor: pointer;
+            transition: 0.5s ease;
+          }
+          
+          .hrnoticebackbtn1:hover {
+            background-color: red;
+          }
+    
+        
+        .hrcellColor1 {
+            color: rgb(12, 9, 9) !important;
+            font-size: 100px;
+            background-color: #ececec;
+        }
+    
+        .ndcellColor2{
+            color: rgb(0, 0, 0) !important;
+            background-color: #C4C4C4;
+        }
+        
+        .nheadcolor1 {
+            border: 1px solid #000000;
+            border-radius: 5px;
+            font-weight: bold;
+    
+        }
+        .hrnoticeselect{
+            background-color: rgba(117, 70, 80, 0.356);
+            border-radius: 5px;
+    
+        }

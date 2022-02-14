@@ -1,0 +1,190 @@
+.row {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/*-----------------Form 1--is ash color-----*/
+.ud_order_form1 {
+  width: 950px;
+  height: 80vh;
+  top: 58px;
+  left: 40px;
+  background-color: #c4c4c4;
+  border-radius: 30px;
+  color: rgb(158, 131, 131);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/*----------------Title-------*/
+.ud_order_title {
+  top: 60px;
+  left: 55px;
+  position: absolute;
+  left: 16zpx;
+  bottom: 528px;
+  color: rgb(22, 16, 16);
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+/*-----------------Form 2-------*/
+.ud_order_form5 {
+  width: 850px;
+  height: 475px;
+  background-color: #383333;
+  color: rgb(187, 167, 167);
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/*------search button-------*/
+.search_order_container {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.search_order_name {
+  height: 30px;
+  width: 250px;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 85, 255);
+  border-radius: 17px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.search_order_name:hover {
+  border: 2px solid rgb(255, 0, 0);
+}
+
+.search_order_Button {
+  position: relative;
+  margin-left: -40px;
+  top: 3px;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  width: 30px;
+  height: 30px;
+}
+.search_order_Button :hover {
+  color: #ff0000;
+}
+
+/*------roe-color-------*/
+.ud_order_cellColor {
+  color: white !important;
+}
+
+.ud_order_headcolor {
+  border: 1px solid #00ff75;
+  border-radius: 5px;
+}
+
+/**------Edit---icon----***/
+.ud_order_Edit_Icon3 {
+  color: rgb(216, 10, 20) !important;
+  cursor: pointer;
+  background-color: #66c977;
+}
+.ud_order_Edit_Icon3:hover {
+  color: #8ff86e !important;
+}
+
+.ud_order_Edit_Icon4 {
+  color: rgb(216, 10, 20) !important;
+  cursor: pointer;
+  width: 50px;
+  background-color: #ddc34d;
+}
+.ud_order_Edit_Icon4:hover {
+  color: #8ff86e !important;
+  background-color: #000000;
+
+}
+
+
+
+/*--------------/*Icon delete button------------------*/
+.ud_order_delete_Icon1 {
+  color: rgb(0, 60, 255) !important;
+  cursor: pointer;
+  background-color: #c04ddd;
+}
+.ud_order_delete_Icon1:hover {
+  color: rgb(190, 16, 16) !important;
+}
+
+.ud_order_delete_Icon2 {
+  color: rgb(0, 60, 255) !important;
+  cursor: pointer;
+  width: 40px;
+  background-color: #dbdd4d;
+}
+.ud_order_delete_Icon2:hover {
+  color: rgb(190, 16, 16) !important;
+  background-color: #000000;
+}
+
+
+
+
+
+
+
+/*Add Order  button*/
+.ud_add_Order_Button {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 2%;
+  right: 2.5%;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.ud_add_Order_Button:hover {
+  background-color: red;
+}
+
+/*Previous button*/
+.ud_order_Back_Button {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 2%;
+  left: 2.5%;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.ud_order_Back_Button:hover {
+  background-color: red;
+}
+
+/*Pdf button*/
+.ud_order_Pdf_Button {
+  background-color: blue;
+  color: white;
+  padding: 7px 13px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 2%;
+  left: 83.1%;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.ud_order_Pdf_Button:hover {
+  background-color: red;
+}

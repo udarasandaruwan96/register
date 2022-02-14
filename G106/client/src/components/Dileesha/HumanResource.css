@@ -1,0 +1,137 @@
+.ro {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.HumanResourceMain {
+    display: flex;
+}
+
+.editx {
+    width: 15vw;
+    height: 15vw;
+    margin: 0px 60px;
+    border-radius: 20px;
+    background-image: url("../../assets/addemp.png"); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    border: 4px solid darkblue;
+    transition: 0.5s ease;
+}
+.editx:hover {
+    opacity: 80%;
+    border: 4px solid red;
+  }
+
+.feedx{
+    width: 15vw;
+    height: 15vw;
+    margin: 0px 60px;
+    border-radius: 15px;
+    background-image: url("../../assets/view.png"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 145%;
+    border: 4px solid darkblue;
+    transition: 0.5s ease;
+}
+.feedx:hover {
+    opacity: 80%;
+    border: 4px solid red;
+  }
+
+.fadex {
+    width: 15vw;
+    height: 15vw;
+    margin: 0px 60px;
+    border-radius: 15px;
+    background-image: url("../../assets/repo.png"); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    border: 4px solid darkblue;
+    transition: 0.5s ease;
+}
+.fadex:hover {
+    opacity: 80%;
+    border: 4px solid red;
+  }
+.simplex {
+    width: 15vw;
+    height: 15vw;
+    margin: 0px 60px;
+    border-radius: 15px;
+    background-image: url("../../assets/attend.png"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 145%;
+    border: 4px solid darkblue;
+    transition: 0.5s ease;
+}
+.simplex:hover {
+    opacity: 80%;
+    border: 4px solid red;
+  }
+
+.simplex1 {
+    width: 15vw;
+    height: 15vw;
+    margin: 0px 60px;
+    border-radius: 15px;
+    background-image: url("../../assets/generateReport.png"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 145%;
+    border: 4px solid darkblue;
+    transition: 0.5s ease;
+}
+.simplex1:hover {
+    opacity: 80%;
+    border: 4px solid red;
+  }
+
+.hbuttongroup1 {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+}
+
+.hbuttongroup2 {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+
+.hbuttongroup3 {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    left: 60%;
+}
+
+.hbuttongroup4 {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    
+}
+.hbuttongroup5 {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    left: 60%;
+}
+

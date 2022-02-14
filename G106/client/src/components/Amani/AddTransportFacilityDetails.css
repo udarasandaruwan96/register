@@ -1,0 +1,129 @@
+.addtransform2 {
+  position: absolute;
+  width: 890px;
+  height: 300px;
+  left: 110px;
+  top: 220px;
+  background: #ffffff;
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 5px 3px 10px rgba(255, 255, 255, 0.56);
+  border-radius: 45px;
+}
+
+/* Title details */
+.titleaddtransportfacility {
+  position: absolute;
+  margin-left: 250px;
+  top: 63px;
+  border-radius: 10px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* Name details */
+.addtransname1 {
+  padding: 20px;
+  margin: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  color: #000000;
+}
+
+/* Starting point  box details */
+.addtransbox2 {
+  position: relative;
+  margin-left: 250px;
+  margin-top: 10px;
+  right: 20px;
+  padding: 13px;
+  width: 500px;
+  height: 20px;
+  background: #c4c4c4;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.addtransbox2:hover {
+  border: 3px solid #0ab0ce;
+}
+
+/* Ending point  box details */
+.addtransbox3 {
+  position: relative;
+  margin-left: 250px;
+  margin-top: 10px;
+  right: 20px;
+  padding: 13px;
+  width: 500px;
+  height: 20px;
+  background: #c4c4c4;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.addtransbox3:hover {
+  border: 3px solid #0ab0ce;
+}
+
+/* Time box details */
+.addtransbox4 {
+  position: relative;
+  margin-left: 250px;
+  margin-top: 10px;
+  right: 20px;
+  padding: 13px;
+  width: 500px;
+  height: 20px;
+  background: #c4c4c4;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.addtransbox4:hover {
+  border: 3px solid #0ab0ce;
+}
+
+/* SAVE button Details */
+.addtransBtn {
+  height: 40px;
+  width: 150px;
+  left: 400px;
+  top: 400px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.addtransBtn:hover {
+  background-color: #ff0000;
+}
+
+/* previous button details */
+.addtransbackBtnn {
+  height: 25px;
+  width: 90px;
+  top: 700px;
+  margin-left: 200px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.addtransbackBtnn:hover {
+  background-color: red;
+}

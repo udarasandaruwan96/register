@@ -1,0 +1,135 @@
+.row {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.facilitymain {
+  display: flex;
+}
+
+.viewdetailsfacility {
+  width: 15vw;
+  height: 13vw;
+  margin: 0px 60px;
+  border-radius: 20px;
+  background-image: url("../../assets/View\ Details\ Facilities.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 120%;
+  border: 2px solid rgb(0, 0, 0);
+  transition: 0.5s ease;
+}
+
+.transportdetails {
+  width: 15vw;
+  height: 13vw;
+  margin: 0px 60px;
+  border-radius: 20px;
+  background-image: url("../../assets/Transport.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 135%;
+  border: 2px solid rgb(0, 0, 0);
+  transition: 0.5s ease;
+}
+
+.cateringdetails {
+  width: 15vw;
+  height: 13vw;
+  margin: 0px 60px;
+  border-radius: 20px;
+  background-image: url("../../assets/Catering.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 150%;
+  border: 2px solid rgb(0, 0, 0);
+  transition: 0.5s ease;
+}
+.facilityreportgroup1 {
+  width: 15vw;
+  height: 13vw;
+  margin: 0px 60px;
+  border-radius: 20px;
+  background-image: url("../../assets/manageFeedback.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 145%;
+  border: 2px solid rgb(0, 0, 0);
+  transition: 0.5s ease;
+}
+
+.facilitybuttongroup1 {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 10%;
+}
+
+.facilitybuttongroup2 {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+}
+
+.facilitybuttongroup3 {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 10%;
+  left: 60%;
+}
+
+.facilitybuttongroup4 {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 55%;
+}
+
+.viewdetails:hover,
+.transportdetails:hover,
+.cateringdetails:hover,
+.reportgroup1:hover {
+  opacity: 60%;
+  border: 4px solid rgb(230, 24, 24);
+}
+
+@media (max-width: 1366px) {
+  .facilitybuttongroup1 {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+  }
+  .facilitybuttongroup2 {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+  }
+  .facilitybuttongroup4 {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+  }
+  .facilitybuttongroup4 {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    left: 30%;
+  }
+}

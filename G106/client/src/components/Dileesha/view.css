@@ -1,0 +1,151 @@
+.ejs{
+    
+    position: absolute;
+    margin: 50px 2px;
+    width: 882px;
+    height: 582px;
+    left: 20px;
+    top: 0px;
+    background-color: #000000;
+    background: #8db0f2;
+    border: 2px solid #04050f;
+    box-sizing: border-box;
+    box-shadow: 5px 3px 10px 1px rgba(182, 8, 8, 0.56);
+    border-radius: 40px;
+    box-shadow: 3px 3px 15px;
+
+}
+.cellcolor11{
+    color: rgb(228, 217, 217);
+}
+.headcolor111{
+        background-color:#52ffff;
+            color:rgb(12, 11, 11);
+        border-radius: 10px;
+}
+.headcolor122{
+    background-color:#52ffff;
+    color:rgb(12, 11, 11);
+    border-radius: 10px;
+}
+.headcolor133{
+    background-color:#52ffff;
+    color:rgb(12, 11, 11);
+    border-radius: 10px;
+}
+.headcolor144{
+    background-color:#52ffff;
+    color:rgb(12, 11, 11);
+    border-radius: 10px;
+}
+.headcolor155{
+    background-color:#FFFF00;
+    color:rgb(12, 11, 11);
+    border-radius: 10px;
+}
+
+.deleteIcon1{
+    background-color: rgb(221, 213, 213);
+}
+.title4{
+    margin-left: 350px;
+    width: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: italic;
+    font-family: Roboto;
+    color: #000000;
+}
+.tt2{
+    border-radius: 23px;
+}
+.buttond {
+   padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    font-family: italic;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color:blue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    width: 199px;
+  }
+  
+  .buttond:hover {background-color: red}
+  
+  .buttond:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(10px);
+  }
+  .Backbtn176{
+ 
+    display: inline-block;
+    padding: 3px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 3px whitesmoke;
+    margin:10px;
+    width: 90px;
+    font-family: italic;
+    font-weight: lighter;
+
+}
+.Backbtn176:hover {background-color:red}
+
+.Backbtn179{
+ 
+    display: inline-block;
+    padding: 3px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    margin:8px;
+    width: 80px;
+    margin-left: 10%;
+    box-shadow: 0 3px whitesmoke;
+    font-weight: lighter;
+    font-family: italic;
+
+}
+.Backbtn179:hover {background-color:red}
+.search{
+    color: black;
+}
+.Backbtn133{
+    display: inline-block;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+    margin:0px;
+    margin-left: 690px;
+    width: 150px;
+margin-top: px;
+  }
+   .buttond1:hover {background-color: red}
+
+   

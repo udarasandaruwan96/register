@@ -1,0 +1,1290 @@
+.row {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.accountmain {
+  display: flex;
+}
+
+.salarygenarate {
+  width: 15vw;
+  height: 13vw;
+  margin: 0px 60px;
+  border-radius: 20px;
+  background-image: url("../../assets/salary.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 120%;
+  border: 2px solid rgb(0, 0, 0);
+  transition: 0.5s ease;
+}
+
+.supplierpayment {
+  width: 15vw;
+  height: 13vw;
+  margin: 0px 60px;
+  border-radius: 20px;
+  background-image: url("../../assets/supplier2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 135%;
+  border: 2px solid rgb(0, 0, 0);
+  transition: 0.5s ease;
+}
+
+.dailysales {
+  width: 15vw;
+  height: 13vw;
+  margin: 0px 60px;
+  border-radius: 20px;
+  background-image: url("../../assets/sales.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 150%;
+  border: 2px solid rgb(0, 0, 0);
+  transition: 0.5s ease;
+}
+.reportgroup1 {
+  width: 15vw;
+  height: 13vw;
+  margin: 0px 60px;
+  border-radius: 20px;
+  background-image: url("../../assets/manageFeedback.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 145%;
+  border: 2px solid rgb(0, 0, 0);
+  transition: 0.5s ease;
+}
+
+.buttongroup1 {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 10%;
+}
+
+.buttongroup2 {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+}
+
+.buttongroup3 {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 10%;
+  left: 60%;
+}
+
+.buttongroup4 {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 55%;
+  left: 30%;
+}
+
+.salarygenarate:hover,
+.supplierpayment:hover,
+.dailysales:hover,
+.reportgroup1:hover {
+  opacity: 60%;
+  border: 4px solid rgb(230, 24, 24);
+}
+.title {
+  margin-top: 40px;
+  margin-left: 200px;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+.titlewmptable {
+  font-size: 34px;
+  font-weight: bold;
+  margin-left: 380px;
+  margin-top: 30px;
+}
+
+.searchname {
+  margin-bottom: 10px;
+  height: 40px;
+  width: 250px;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  border-radius: 17px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.submitsales {
+  margin-left: 550px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.total {
+  top: 600px;
+  margin-left: 10px;
+  height: 40px;
+  width: 250px;
+  background-color: #13829e;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: bold;
+}
+.totalName {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: bold;
+}
+.total2 {
+  margin-left: 10px;
+  top: 600px;
+  height: 40px;
+  width: 250px;
+  background-color: #13829e;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: bold;
+}
+.totalName2 {
+  margin-left: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.searchBtn {
+  position: relative;
+  left: 250px;
+  top: 7px;
+  color: rgb(255, 255, 255);
+  width: 30px;
+  height: 30px;
+}
+.searchBtn:hover {
+  color: red;
+}
+.salarygenarate1 {
+  margin-left: 20px;
+  height: 300px;
+  margin-top: 0px;
+}
+
+.cellColor1 {
+  background-color: #e2c4a1;
+  color: rgb(0, 0, 0) !important;
+}
+.cellColor3 {
+  background-color: #d3d629;
+}
+
+.headcolor1 {
+  color: #1700e4;
+  font-size: 18px;
+  font-weight: bold;
+}
+.uptadeIcontablr {
+  width: 60px;
+  height: 20px;
+  background-color: #ff00d4;
+  color: #d6d6d6;
+  font-weight: bold;
+  border: 1px solid #354794;
+}
+.uptadeIcontablr:hover {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  border: 2px solid #3cff00;
+}
+.deleteIcontablr {
+  width: 60px;
+  height: 20px;
+  background-color: #ff0000;
+  color: #d6d6d6;
+  font-weight: bold;
+  border: 1px solid #354794;
+}
+.deleteIcontablr:hover {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  border: 2px solid #3cff00;
+}
+
+.deleteIconIcon {
+  color: rgb(21, 255, 0) !important;
+  cursor: pointer;
+  background-color: #4dbbdd;
+}
+.updateIconsalary {
+  color: rgb(17, 0, 255) !important;
+  cursor: pointer;
+  background-color: #4dbbdd;
+}
+.deleteIconIcon:hover {
+  color: rgb(39, 1, 255) !important;
+}
+.updateIcon1:hover {
+  color: #3cff00 !important;
+}
+.backBtn4 {
+  height: 25px;
+  width: 90px;
+  top: 570px;
+  margin-left: 100px;
+  background-color: rgb(0, 26, 255);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.backBtn4:hover {
+  background-color: red;
+}
+
+/*--------------------------------------------*/
+
+@media (max-width: 1366px) {
+  .buttongroup1 {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+  }
+  .buttongroup2 {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+  }
+  .buttongroup4 {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+  }
+  .buttongroup4 {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    left: 30%;
+  }
+}
+
+.titlee {
+  margin-top: 40px;
+  margin-left: 420px;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+.titleee {
+  margin-top: 40px;
+  margin-left: 20px;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.form2 {
+  position: absolute;
+  width: 890px;
+  height: 350px;
+  left: 110px;
+  top: 220px;
+  background: #d6d6d6;
+  border: 3px solid #3b477b;
+  box-sizing: border-box;
+  box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.56);
+  border-radius: 45px;
+}
+.formedit {
+  position: absolute;
+  width: 890px;
+  height: 500px;
+  left: 110px;
+  top: 120px;
+  background: #d6d6d6;
+  border: 3px solid #3b477b;
+  box-sizing: border-box;
+  box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.56);
+  border-radius: 45px;
+}
+
+.title1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 60px;
+  margin-top: 4px;
+}
+.name2 {
+  padding: 20px;
+  margin: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  color: #354794;
+}
+
+.editid {
+  position: relative;
+  margin-left: 65px;
+  margin-top: 15px;
+  right: 20px;
+  padding: 13px;
+  width: 500px;
+  height: 8px;
+  background: #9ebe0d;
+  border: 3px solid #000000;
+  border-radius: 23px;
+  font-size: 20px;
+}
+.box1 {
+  position: relative;
+  margin-left: 30px;
+  margin-top: 15px;
+  right: 20px;
+  padding: 13px;
+  width: 500px;
+  height: 8px;
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 23px;
+  font-size: 20px;
+}
+.box1:hover {
+  border: 3px solid #0ab0ce;
+}
+.box2 {
+  position: relative;
+  margin-left: 145px;
+  margin-top: 10px;
+  right: 20px;
+  padding: 13px;
+  width: 500px;
+  height: 8px;
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 23px;
+  font-size: 20px;
+}
+.box2:hover {
+  border: 3px solid #0ab0ce;
+}
+
+.box3 {
+  position: relative;
+  margin-left: 135px;
+  margin-top: 10px;
+  right: 20px;
+  padding: 13px;
+  width: 500px;
+  height: 8px;
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 23px;
+  font-size: 20px;
+}
+.box3:hover {
+  border: 3px solid #0ab0ce;
+}
+.box4 {
+  position: relative;
+  margin-left: 80px;
+  margin-top: 10px;
+  right: 20px;
+  padding: 13px;
+  width: 70px;
+  height: 8px;
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 23px;
+  font-size: 20px;
+}
+.box4:hover {
+  border: 3px solid #0ab0ce;
+}
+.box5 {
+  position: relative;
+  margin-left: 45px;
+  margin-top: 10px;
+  right: 20px;
+  padding: 13px;
+  width: 100px;
+  height: 8px;
+  color: red;
+  background: #ffffff;
+  border: 3px solid #ff0000;
+  border-radius: 23px;
+  font-size: 20px;
+}
+/* .box5:hover {
+  border: 3px solid #0ab0ce;
+} */
+.box6 {
+  position: relative;
+  margin-left: 95px;
+  margin-top: 10px;
+  right: 20px;
+  padding: 13px;
+  width: 70px;
+  height: 8px;
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 23px;
+  font-size: 20px;
+}
+.box6:hover {
+  border: 3px solid #0ab0ce;
+}
+.box7 {
+  position: relative;
+  margin-left: 40px;
+  margin-top: 10px;
+  right: 20px;
+  padding: 13px;
+  width: 100px;
+  height: 8px;
+  color: red;
+  background: #ffffff;
+  border: 3px solid #ff0000;
+  border-radius: 23px;
+  font-size: 20px;
+}
+/* .box7:hover {
+  border: 3px solid #0ab0ce;
+} */
+.box8 {
+  position: relative;
+  margin-left: 25px;
+  margin-top: 10px;
+  right: 20px;
+  padding: 13px;
+  width: 500px;
+  height: 8px;
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 23px;
+  font-size: 20px;
+}
+.box8:hover {
+  border: 3px solid #0ab0ce;
+}
+.box4edit {
+  position: relative;
+  margin-left: 78px;
+  margin-top: 10px;
+  right: 20px;
+  padding: 13px;
+  width: 500px;
+  height: 8px;
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 23px;
+  font-size: 20px;
+}
+.box6edit {
+  position: relative;
+  margin-left: 90px;
+  margin-top: 10px;
+  right: 20px;
+  padding: 13px;
+  width: 500px;
+  height: 8px;
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 23px;
+  font-size: 20px;
+}
+.Btn {
+  height: 35px;
+  width: 150px;
+  margin-top: 36px;
+  margin-left: 700px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.btnn1 {
+  height: 25px;
+  width: 150px;
+  margin-top: 430px;
+  margin-left: 730px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.Btn1n {
+  height: 35px;
+  width: 250px;
+  margin-top: 36px;
+  margin-left: 330px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.Btn9 {
+  height: 35px;
+  width: 180px;
+  margin-top: 410px;
+  margin-left: 750px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.Btn10 {
+  height: 35px;
+  width: 180px;
+  margin-top: 410px;
+  margin-left: 450px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.Btn:hover,
+.Btn1n:hover,
+.Btn1:hover,
+.Btn:hover {
+  background-color: #ff0000;
+}
+.BtnBtn {
+  height: 35px;
+  width: 200px;
+  margin-top: 86px;
+  margin-left: 350px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.BtnBtn:hover {
+  background-color: #ff0000;
+}
+.Btn1 {
+  height: 35px;
+  width: 150px;
+  margin-top: 36px;
+  margin-left: 710px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.backBtnnnn2 {
+  height: 25px;
+  width: 150px;
+  top: 594px;
+  left: 197px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.backBtnnnn {
+  height: 25px;
+  width: 150px;
+  top: 544px;
+  left: 197px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.backBtnnnn21 {
+  height: 25px;
+  width: 150px;
+  top: 594px;
+  left: 797px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.backBtnn {
+  height: 25px;
+  width: 150px;
+  top: 584px;
+  left: 150px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.backBtnnnn:hover,
+.backBtnnnn21:hover,
+.backBtnnnn:hover,
+.backBtnn:hover {
+  background-color: red;
+}
+.backBtnn1 {
+  height: 25px;
+  width: 200px;
+  top: 540px;
+  left: 150px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.backBtnn1:hover {
+  background-color: red;
+}
+
+/*--------------------------------------------------------------*/
+@media (max-width: 1366px) {
+  .row {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+  .accountmain {
+    display: flex;
+  }
+
+  .salarygenarate {
+    width: 15vw;
+    height: 13vw;
+    margin: 0px 60px;
+    border-radius: 20px;
+    background-image: url("../../assets/salary.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    border: 2px solid rgb(0, 0, 0);
+    transition: 0.5s ease;
+  }
+
+  .supplierpayment {
+    width: 15vw;
+    height: 13vw;
+    margin: 0px 60px;
+    border-radius: 20px;
+    background-image: url("../../assets/supplier2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 135%;
+    border: 2px solid rgb(0, 0, 0);
+    transition: 0.5s ease;
+  }
+
+  .dailysales {
+    width: 15vw;
+    height: 13vw;
+    margin: 0px 60px;
+    border-radius: 20px;
+    background-image: url("../../assets/sales.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    border: 2px solid rgb(0, 0, 0);
+    transition: 0.5s ease;
+  }
+  .reportgroup1 {
+    width: 15vw;
+    height: 13vw;
+    margin: 0px 60px;
+    border-radius: 20px;
+    background-image: url("../../assets/manageFeedback.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 145%;
+    border: 2px solid rgb(0, 0, 0);
+    transition: 0.5s ease;
+  }
+
+  .buttongroup1 {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+  }
+
+  .buttongroup2 {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+  }
+
+  .buttongroup3 {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    left: 60%;
+  }
+
+  .buttongroup4 {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    left: 30%;
+  }
+
+  .salarygenarate:hover,
+  .supplierpayment:hover,
+  .dailysales:hover,
+  .reportgroup1:hover {
+    opacity: 60%;
+    border: 4px solid rgb(230, 24, 24);
+  }
+  .title {
+    margin-top: 40px;
+    margin-left: 200px;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+  }
+  .search-container {
+    margin-top: 70px;
+    margin-left: 130px;
+  }
+  .searchname {
+    height: 40px;
+    width: 300px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 85, 255);
+    border-radius: 17px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .searchname:hover {
+    border: 2px solid rgb(255, 0, 0);
+  }
+  .searchBtn {
+    position: relative;
+    margin-left: -40px;
+    top: 3px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    width: 30px;
+    height: 30px;
+  }
+  .searchBtn:hover {
+    color: #ff0000;
+  }
+  .salarygenarate1 {
+    margin-left: 20px;
+    height: 370px;
+    margin-top: 100px;
+  }
+
+  .cellColor1 {
+    background-color: #d6d6d6;
+    color: rgb(0, 0, 0) !important;
+  }
+
+  .headcolor1 {
+    color: #ff0000;
+    font-size: 18px;
+  }
+
+  .deleteIcon1 {
+    color: rgb(17, 0, 255) !important;
+    cursor: pointer;
+    background-color: #d6d6d6;
+  }
+  .updateIcon1 {
+    color: rgb(17, 0, 255) !important;
+    cursor: pointer;
+    background-color: #d6d6d6;
+  }
+  .deleteIcon1:hover {
+    color: rgb(255, 1, 1) !important;
+  }
+  .updateIcon1:hover {
+    color: #2bff00 !important;
+  }
+  .backBtn4 {
+    height: 25px;
+    width: 90px;
+    top: 570px;
+    margin-left: 100px;
+    background-color: rgb(0, 26, 255);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+  .backBtn4:hover {
+    background-color: red;
+  }
+  /*-----------------------------------------------------------------------*/
+
+  @media (max-width: 1366px) {
+    .buttongroup1 {
+      display: block;
+      text-align: center;
+      cursor: pointer;
+      position: absolute;
+      top: 10%;
+    }
+    .buttongroup2 {
+      display: block;
+      text-align: center;
+      cursor: pointer;
+      position: absolute;
+      top: 10%;
+      left: 30%;
+    }
+    .buttongroup4 {
+      display: block;
+      text-align: center;
+      cursor: pointer;
+      position: absolute;
+      top: 55%;
+    }
+    .buttongroup4 {
+      display: block;
+      text-align: center;
+      cursor: pointer;
+      position: absolute;
+      top: 55%;
+      left: 30%;
+    }
+  }
+  .titlee {
+    margin-top: 40px;
+    margin-left: 420px;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+  }
+  .form2 {
+    position: absolute;
+    width: 890px;
+    height: 300px;
+    left: 110px;
+    top: 210px;
+    background: #d6d6d6;
+    border: 3px solid #3b477b;
+    box-sizing: border-box;
+    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.56);
+    border-radius: 45px;
+  }
+  .title1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: 4px;
+  }
+  .name2 {
+    padding: 20px;
+    margin: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: #354794;
+  }
+
+  .box1 {
+    position: relative;
+    margin-left: 80px;
+    margin-top: 15px;
+    right: 20px;
+    padding: 13px;
+    width: 500px;
+    height: 8px;
+    background: #ffffff;
+    border: 3px solid #000000;
+    border-radius: 23px;
+    font-size: 20px;
+  }
+  .box1:hover {
+    border: 3px solid #0ab0ce;
+  }
+  .box2 {
+    position: relative;
+    margin-left: 140px;
+    margin-top: 10px;
+    right: 20px;
+    padding: 13px;
+    width: 500px;
+    height: 8px;
+    background: #ffffff;
+    border: 3px solid #000000;
+    border-radius: 23px;
+    font-size: 20px;
+  }
+  .box2:hover {
+    border: 3px solid #0ab0ce;
+  }
+  .box3 {
+    position: relative;
+    margin-left: 145px;
+    margin-top: 10px;
+    right: 20px;
+    padding: 13px;
+    width: 500px;
+    height: 8px;
+    background: #ffffff;
+    border: 3px solid #000000;
+    border-radius: 23px;
+    font-size: 20px;
+  }
+  .box3:hover {
+    border: 3px solid #0ab0ce;
+  }
+  .box4 {
+    position: relative;
+    margin-left: 90px;
+    margin-top: 10px;
+    right: 20px;
+    padding: 13px;
+    width: 500px;
+    height: 8px;
+    background: #ffffff;
+    border: 3px solid #000000;
+    border-radius: 23px;
+    font-size: 20px;
+  }
+  .box4:hover {
+    border: 3px solid #0ab0ce;
+  }
+  .box5 {
+    position: relative;
+    margin-left: 115px;
+    margin-top: 10px;
+    right: 20px;
+    padding: 13px;
+    width: 500px;
+    height: 8px;
+    background: #ffffff;
+    border: 3px solid #000000;
+    border-radius: 23px;
+    font-size: 20px;
+  }
+  .box5:hover {
+    border: 3px solid #0ab0ce;
+  }
+  .box6 {
+    position: relative;
+    margin-left: 115px;
+    margin-top: 10px;
+    right: 20px;
+    padding: 13px;
+    width: 500px;
+    height: 8px;
+    background: #ffffff;
+    border: 3px solid #000000;
+    border-radius: 23px;
+    font-size: 20px;
+  }
+  .box6:hover {
+    border: 3px solid #0ab0ce;
+  }
+
+  .Btn {
+    height: 35px;
+    width: 100px;
+    margin-top: 36px;
+    margin-left: 670px;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+  .Btn:hover {
+    background-color: #ff0000;
+  }
+  .backBtnn {
+    height: 25px;
+    width: 90px;
+    top: 534px;
+    margin-left: 200px;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+  .backBtnn:hover {
+    background-color: red;
+  }
+}
+
+.supformedit {
+  position: absolute;
+  width: 890px;
+  height: 400px;
+  left: 110px;
+  top: 120px;
+  background: #d6d6d6;
+  border: 3px solid #3b477b;
+  box-sizing: border-box;
+  box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.56);
+  border-radius: 45px;
+}
+
+.suptitle1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.supname2 {
+  padding: 20px;
+  margin: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  color: #354794;
+  margin-bottom: 20px;
+}
+.supbox1 {
+  position: relative;
+  margin-left: 30px;
+  margin-top: 15px;
+  right: 20px;
+  padding: 13px;
+  width: 500px;
+  height: 8px;
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 23px;
+  font-size: 20px;
+}
+
+.supbox1:hover {
+  border: 3px solid #0ab0ce;
+}
+.supbox2 {
+  position: relative;
+  margin-left: 20px;
+  margin-top: 15px;
+  right: 20px;
+  padding: 13px;
+  width: 500px;
+  height: 8px;
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 23px;
+  font-size: 20px;
+}
+.supbox2:hover {
+  border: 3px solid #0ab0ce;
+}
+.supbox3 {
+  position: relative;
+  margin-left: 30px;
+  margin-top: 15px;
+  right: 20px;
+  padding: 13px;
+  width: 500px;
+  height: 8px;
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 23px;
+  font-size: 20px;
+}
+.supbox3:hover {
+  border: 3px solid #0ab0ce;
+}
+.supbox4 {
+  position: relative;
+  margin-left: 90px;
+  margin-top: 15px;
+  right: 20px;
+  padding: 13px;
+  width: 500px;
+  height: 8px;
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 23px;
+  font-size: 20px;
+}
+.supbox4:hover {
+  border: 3px solid #0ab0ce;
+}
+.supbox6 {
+  position: relative;
+  margin-left: 65px;
+  margin-top: 15px;
+  right: 20px;
+  padding: 13px;
+  width: 500px;
+  height: 8px;
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 23px;
+  font-size: 20px;
+}
+.supbox6:hover {
+  border: 3px solid #0ab0ce;
+}
+.supbox8 {
+  position: relative;
+  margin-left: 30px;
+  margin-top: 15px;
+  right: 20px;
+  padding: 13px;
+  width: 500px;
+  height: 8px;
+  background: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 23px;
+  font-size: 20px;
+}
+.supbox8:hover {
+  border: 3px solid #0ab0ce;
+}
+
+.supBtn {
+  height: 35px;
+  width: 200px;
+  margin-top: 46px;
+  margin-left: 550px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.supBtn:hover {
+  background-color: #ff0000;
+}
+.supBtnBtn {
+  height: 35px;
+  width: 200px;
+  margin-top: 46px;
+  margin-left: 150px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.supBtnBtn:hover {
+  background-color: #ff0000;
+}

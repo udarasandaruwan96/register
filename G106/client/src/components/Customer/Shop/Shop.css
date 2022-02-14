@@ -1,0 +1,166 @@
+/*--------------left-----------------*/
+@media (max-width: 1366px) {
+  .shopmain {
+    height: 84vh;
+    width: 100%;
+    display: flex;
+  }
+
+  .leftcategory {
+    width: 15%;
+    height: 50%;
+    /* background-color: #173fad; */
+    margin: 10px 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    /* justify-content: center; */
+  }
+  .right-category {
+    /* background-image: url("../../../assets/backroma.jpg");
+    background-image: fill; */
+    width: 80%;
+    background-color: #dbbcbc2a;
+    margin: 10px 10px;
+    border-radius: 38px;
+    position: relative;
+    display: flex;
+  }
+
+  .categoryLinks ul {
+    display: flex;
+    margin: 5%;
+    padding: 10px 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .categoryLinks .cLinks .cLink {
+    background-color: #363030;
+    width: 60%;
+    padding: 7px 11px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 2px solid #080707;
+    transition: 0.3s ease;
+  }
+
+  .categoryLinks .cLinks .cLink:hover {
+    color: rgb(97, 66, 71);
+    background-color: #c3b0b0;
+    font-weight: bold;
+  }
+
+  /*--------------------------------shop bag---------------------------------------*/
+
+  .products {
+    margin: 15px auto;
+    padding-top: 2%;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgba(82, 75, 75, 0.178);
+    border-radius: 25px;
+    overflow: auto;
+  }
+  .products::-webkit-scrollbar {
+    width: 11px;
+  }
+
+  .products::-webkit-scrollbar-track {
+    background: rgb(202, 200, 195);
+    border-radius: 20px;
+    border: 3px solid rgb(221, 214, 201);
+  }
+  .products::-webkit-scrollbar-thumb {
+    background: rgb(70, 64, 64);
+    border-radius: 20px;
+    border: 3px solid rgb(155, 142, 119);
+  }
+
+  .product-image {
+    width: 85%;
+    position: center;
+    background-color: rgb(177, 177, 190);
+    margin-top: -80px;
+    margin-left: 10px;
+    border-radius: 45px;
+    /* max-width: 300px; */
+    /* max-height: 260px; */
+    min-height: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* display: block; */
+    /* object-fit: cover; */
+  }
+  .card {
+    width: 150px;
+    height: 200px;
+    position: center;
+    /* border: 1px solid black; */
+    border-radius: 45px;
+    /* overflow: hidden; */
+    padding: 9px;
+    margin: 50px 10px;
+    background-color: rgb(235, 234, 225);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(26, 15, 15, 0.19);
+  }
+
+  .product-name01 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    /* margin: 1px 1px; */
+    font-size: 16px;
+  }
+  .cart-box-dtl { 
+    position: center;
+    /* background-color:rgb(226, 216, 216) ; */
+    width: 150px; 
+    height: 62px;
+
+  }
+  .cart-name-box11{ 
+    text-align: center;
+    position: center;
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: 30px;
+  }
+
+  .product-price {
+    /* background-color: blueviolet; */
+    text-align: center;
+    margin: 10px 0px; 
+    font-size: 15px;
+  }
+  .product-add-button {
+    box-shadow: 5px 5px 5px #3b6d81;
+    font-size: 18px;
+    border-radius: 25px;
+    background-color: rgb(0, 62, 112);
+    color: rgb(209, 209, 209);
+    width: 50%;
+    height: 20px;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 15px auto;
+    border-bottom: -10;
+    transform: translateY(2px);
+  }
+  .product-add-button:hover {
+    background-color: tomato;
+  }
+ 
+
+}

@@ -1,0 +1,230 @@
+@media (max-width: 1366px) {
+  .row {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  .viewitem01 {
+    /* top: 10px; */
+    left: 20px;
+    width: 850px;
+    height: 590px;
+    top: 8px;
+    left: 40px;
+    background-color: #c4c4c4;
+    border-radius: 30px;
+    color: rgb(158, 131, 131);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .itemtitle {
+    position: absolute;
+    left: 16px;
+    bottom: 539px;
+    color: rgb(22, 16, 16);
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+  }
+
+  .viewitem2 {
+    width: 850px;
+    height: 505px;
+    margin-bottom: 11px;
+    background-color: #383333;
+    color: rgb(187, 167, 167);
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .viewdeleteIcon {
+    background-color: rgb(124, 124, 241);
+    color: rgb(224, 224, 224) !important;
+    cursor: pointer;
+  }
+
+  .viewdeleteIcon:hover {
+    color: rgb(103, 0, 124) !important;
+  }
+
+  .cellColor {
+    color: rgb(255, 255, 255) !important;
+  }
+
+  .headcolor {
+    border: 1px solid #00ff75;
+    border-radius: 5px;
+  }
+
+  /*------search button-------*/
+
+  .search-bar {
+    /* left: 210px; */
+    margin-top: 0px;
+    margin-left: 580px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .search-bar-name {
+    height: 30px;
+    width: 250px;
+    background-color: #070606;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(84, 129, 226);
+    border-radius: 17px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .search-bar-name:hover {
+    border: 2px solid rgb(134, 102, 102);
+  }
+
+  .search-bar-Btn1 {
+    /* position: relative; */
+    margin-left: -40px;
+    top: 3px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    width: 30px;
+    height: 30px;
+  }
+  .search-bar-Btn1:hover {
+    color: #ff0000;
+  }
+  .viewitembackbtn1 {
+    background-color: rgb(0, 0, 129);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 7%;
+    left: 5.8%;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+
+  .viewitembackbtn1:hover {
+    background-color: red;
+    color: rgb(0, 0, 0);
+  }
+}
+.row {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.viewitem01 {
+  /* top: 10px; */
+  left: 20px;
+  width: 850px;
+  height: 590px;
+  top: 8px;
+  left: 40px;
+  background-color: #c4c4c4;
+  border-radius: 30px;
+  color: rgb(158, 131, 131);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.itemtitle {
+  position: absolute;
+  left: 16px;
+  bottom: 539px;
+  color: rgb(22, 16, 16);
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.viewitem2 {
+  width: 850px;
+  height: 505px;
+  margin-bottom: 11px;
+  background-color: #383333;
+  color: rgb(187, 167, 167);
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.viewdeleteIcon {
+  background-color: rgb(124, 124, 241);
+  color: rgb(224, 224, 224) !important;
+  cursor: pointer;
+}
+
+.viewdeleteIcon:hover {
+  color: rgb(103, 0, 124) !important;
+}
+
+.cellColor {
+  color: rgb(255, 255, 255) !important;
+}
+
+.headcolor {
+  border: 1px solid #00ff75;
+  border-radius: 5px;
+}
+
+/*------search button-------*/
+
+.search-bar {
+  /* left: 210px; */
+  margin-top: 0px;
+  margin-left: 580px;
+  font-family: "Times New Roman", Times, serif;
+}
+.search-bar-name {
+  height: 30px;
+  width: 250px;
+  background-color: #070606;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(84, 129, 226);
+  border-radius: 17px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.search-bar-name:hover {
+  border: 2px solid rgb(134, 102, 102);
+}
+
+.search-bar-Btn1 {
+  /* position: relative; */
+  margin-left: -40px;
+  top: 3px;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  width: 30px;
+  height: 30px;
+}
+.search-bar-Btn1:hover {
+  color: #ff0000;
+}
+.viewitembackbtn1 {
+  background-color: rgb(0, 0, 122);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 7%;
+  left: 5.8%;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.viewitembackbtn1:hover {
+  background-color: red;
+  color: rgb(0, 0, 0);
+}
