@@ -7,7 +7,7 @@ import Contact from "./components/Contact/Contact";
 import SignUp from "./components/SignUp/SignUp";
 import Customer from "./components/Customer/Customer.js";
 
-
+/////////////////////////////////////////////////////
 //import { CartContext } from "./Context/CartContext";
 
 const App = () => {
